@@ -1,0 +1,18 @@
+.form1{
+    display: flex;
+}
+
+.form2{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form1 h2{
+    color: blue;
+}
+
+.btt{
+    padding: 5px;
+}

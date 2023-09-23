@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="js/viacepapi.js"></script>
+    <title>api</title>
+</head>
+<body>
+    <div class="form1">
+        <form action="" class="form2">
+            <h2>Formulário para Cadastro</h2>
+
+            <label for="nome">Nome</label>
+            <input type="text" required>
+
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" required>
+
+            <label for="email">E-mail</label>
+            <input type="text" required>
+
+            <label for="cep">CEP</label>
+            <input type="text" id="i_cep" placeholder="00000-000" onblur="pesquisa_cep(this.value)" required>
+
+            <label for="rua">Rua</label>
+            <input type="text" id="i_rua" disabled>
+
+            <label for="bairro">Bairro</label>
+            <input type="text" id="i_bairro" disabled>
+
+            <label for="cidade">Cidade</label>
+            <input type="text" id="i_cidade" disabled>
+
+            <label for="estado">Estado</label>
+            <input type="text" id="i_estado" disabled>
+ 
+            <input type="submit" value="Cadastrar" id="btt">
+            </form>
+    </div>
+    
+</body>
+</html>
